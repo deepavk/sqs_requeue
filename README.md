@@ -1,9 +1,9 @@
-This script is to be used for the aws lambda function that requeues messages from the dead letter queue back to the live queue. 
+This script can be used on aws lambda to requeues messages from the dead letter queue back to the source queue. 
 
-The lambda takes 3 environment variables
+The lambda script takes 3 environment variables
 
 destination_queue
 region
 source_queue
 
-To create a zip file that can be uploaded for the lambda zip_dlq_script.sh can be run 
+Run lambda zip_dlq_script.sh to create a zip file that can be uploaded on aws lambda
