@@ -1,4 +1,4 @@
-AWS sqs: 
+Script to requeue messages to the dead letter queue in SQS
 
 If a message fails to be consumed it is sent to the dead letter queue on SQS. An AWS lambda function can be setup to requeue messages from dead letter queue to source queue
 This script can be used to requeues messages. 
